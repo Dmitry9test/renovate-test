@@ -1,19 +1,19 @@
 {
-  labels: ['upgrade'],
-  repositories: [
+  "labels": ["upgrade"],
+  "repositories": [
     {
-      repository: 'renovate-test',
-      packageRules: [
+      "repository": "renovate-test",
+      "packageRules": [
         {
-          paths: ['package.json'],
-          labels: ['upgrade'],
-        },
-      ],
-    },
+          "paths": ["package.json"],
+          "labels": ["upgrade"]
+        }
+      ]
+    }
   ],
-  packageRules: [
+  "packageRules": [
     {
-      managers: ['foo', 'bundler', 'cargo', 'circleci', 'composer', 'docker-compose', 'dockerfile', 'github-actions'],
-    },
-  ],
+      "managers": ["foo", "bundler", "cargo", "circleci", "composer", "docker-compose", "dockerfile", "github-actions"]
+    }
+  ]
 }
