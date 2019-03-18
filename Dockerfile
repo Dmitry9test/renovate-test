@@ -1,5 +1,5 @@
 # https://docs.docker.com/develop/develop-images/multistage-build/#name-your-build-stages
-FROM golang:1.7.3 as builder
+FROM golang:1.12.1 as builder
 WORKDIR /go/src/github.com/alexellis/href-counter/
 RUN go get -d -v golang.org/x/net/html  
 COPY app.go    .
