@@ -6,7 +6,7 @@ http_archive(
 )
 http_archive(
     name = "com_google_protobuf",
-    sha256 = "983975ab66113cbaabea4b8ec9f3a73406d89ed74db9ae75c74888e685f956f8",
-    strip_prefix = "protobuf-66dc42d891a4fc8e9190c524fd67961688a37bbe",
-    url = "https://github.com/google/protobuf/archive/66dc42d891a4fc8e9190c524fd67961688a37bbe.tar.gz",
+    sha256 = "62875c35fecdf9cf20132d95e16955c892f8a90ee48fc4d214438e84fa992735",
+    strip_prefix = "protobuf-b68a347f56137b4b1a746e8c7438495a6ac1bd91",
+    url = "https://github.com/google/protobuf/archive/b68a347f56137b4b1a746e8c7438495a6ac1bd91.tar.gz",
 )
