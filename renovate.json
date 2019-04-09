@@ -2,11 +2,9 @@
     "extends": [
         "config:base"
     ],
-    "packageRules": [
-        {
-            "managers": [
-                "bazel"
-            ]
-        }
-    ]
+    "packageRules": [{
+        "managers": ["bazel"]
+        "packageNames": ["hasura/graphql-engine"],
+        "versionScheme": "semver"
+    }]
 }
