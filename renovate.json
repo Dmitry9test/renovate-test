@@ -3,7 +3,7 @@
         "config:base"
     ],
     "packageRules": [{
-        "managers": ["bazel"]
+        "managers": ["bazel"],
         "packageNames": ["hasura/graphql-engine"],
         "versionScheme": "semver"
     }]
