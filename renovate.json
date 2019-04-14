@@ -2,9 +2,13 @@
     "extends": [
         "config:base"
     ],
-    "packageRules": [{
-        "managers": ["bazel"],
-        "packageNames": ["hasura/graphql-engine"],
-        "versionScheme": "semver"
-    }]
+    "pipenv": {
+        "enabled": true
+    },
+    "pip_setup": {
+        "enabled": true
+    },
+    "labels": [
+        "dependencies"
+    ]
 }
