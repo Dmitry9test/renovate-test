@@ -1,12 +1,17 @@
 [[source]]
 name = "pypi"
 url = "https://pypi.org/simple"
-verify_ssl = true
+verify_ssl = false
 
 [dev-packages]
 
 [packages]
 raven = {extras = ['flask']}
+Flask = "*"
+Flask-Caching = '*'
+flask-mako = {}
+Flask-SQLAlchemy = {version = "*"}
+Flask-Login = {editable = true}
 
 [requires]
 python_version = "3.7"
